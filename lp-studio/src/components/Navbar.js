@@ -1,32 +1,20 @@
 import React from "react";
+import blackLogo from "../imgs/black-lp-logo.png";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <img src="./src/imgs/white-lp-logo.png" alt="my personal logo"/>
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="#a" className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            About
-          </a>
-        </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Projects
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
-          </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a>
-        </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Hire Me
-        </a>
+    <nav className="m-16 ml-20 mr-20 flex justify-between items-center">
+      <div className="flex flex-row items-center justify-between w-28">
+        <img src={blackLogo} alt="my personal logo" className="h-14"/>
+        <h1 className="text-2xl">studio</h1>
       </div>
-    </header>
+      <div className="flex items-center justify-between w-2/6 text-l poppins">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projets</a>
+        <a href="#testimonials">Testimonials</a>
+      </div>
+      <button className="poppins border-2 p-2 w-28 rounded-full border-green-500 hover:bg-green-500 hover:text-white">Contact</button>
+    </nav>
   );
 };
