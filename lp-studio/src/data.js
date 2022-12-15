@@ -1,10 +1,12 @@
+import check from "./imgs/icons8-instagram-check-mark-96.png"
+
 export const projects = [
     {
       title: "React Reserve",
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      image: "",
       link: "https://reactbootcamp.com",
     },
     {
@@ -32,3 +34,32 @@ export const projects = [
       link: "https://pythonbootcamp.com",
     },
   ];
+
+export const skills = [
+  {
+    skill: "HTML",
+    image: `${check}`
+  },
+  {
+    skill: "CSS",
+    image: `${check}`
+  },
+  {
+    skill: "Javascript",
+    image: `${check}`
+  },
+  {
+    skill: "React",
+    image: `${check}`
+  },
+  {
+    skill: "Node.js",
+    image: `${check}`
+  },
+  {
+    skill: "Graphql",
+    image: `${check}`
+  }
+
+];
+  

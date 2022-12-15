@@ -9,8 +9,26 @@ h1 {
     font-weight: 500;
 }
 
+.poppins {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
 
 .poppins-300 {
     font-family: 'Poppins';
     font-weight:300;
 }
+
+.hero-image {
+    background-image: url("./imgs/background_Img-01.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  .light-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
