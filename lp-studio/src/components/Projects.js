@@ -10,9 +10,8 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            These are a few examples of the type of work I did while in school. I picked some the most 
+            challenging and significant projects that I worked on to showcase my skills.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
