@@ -9,12 +9,16 @@ export default function Navbar() {
         <h1 className="text-2xl">studio</h1>
       </div>
       <div className="flex items-center justify-between w-2/6 text-l poppins">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projets</a>
-        <a href="#testimonials">Resume</a>
+        <a href="#about" className="hover:text-green-500">About</a>
+        <a href="#skills" className="hover:text-green-500">Skills</a>
+        <a href="#projects" className="hover:text-green-500">Projets</a>
+        <a href="https://www.canva.com/design/DAE3t-0XuL8/IeLnJjkQHB8wzT-F2vTtLQ/edit" className="hover:text-green-500">Resume</a>
       </div>
-      <button className="poppins border-2 p-2 w-28 rounded-full border-green-500 hover:bg-green-500 hover:text-white">Contact</button>
+      <a
+                  href="#contact"
+                  className="inline-flex text-gray-700 border-green-500 border-2 py-2 px-6 focus:outline-none hover:bg-green-500 hover:text-white poppins rounded-full">
+                  Contact
+                </a>
     </nav>
   );
 };

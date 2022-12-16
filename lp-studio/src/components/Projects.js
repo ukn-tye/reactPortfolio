@@ -23,13 +23,14 @@ export default function Projects() {
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative ">
                 <div className="px-8 py-10 relative z-10 w-full border-4 hover:opacity-100 rounded-2xl light-shadow">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1 hover:text-xl">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                <h1 className="title-font text-xl font-medium text-green-400 mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <h2 className="tracking-widest text-sm title-font font-medium text-gray-700 mb-1 hover:text-xl">
+                    {project.subtitle}
+                  </h2>
+                  
+                  <p className="leading-relaxed text-gray-400">{project.description}</p>
                 </div>
               </div>
             </a>

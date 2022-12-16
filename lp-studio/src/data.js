@@ -2,36 +2,36 @@ import check from "./imgs/icons8-instagram-check-mark-96.png"
 
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Book Finder",
+      subtitle: "React & Graphql",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "In this project I was tasked with making the graphql database and making all the backend code work for this book search engine.",
       image: "",
-      link: "https://reactbootcamp.com",
+      link: "https://github.com/ukn-tye/find-a-book",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Weather App",
+      subtitle: "HTML CSS Javascript",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "In this project I created a weather app that took data from the national weather app and placed it on my app. It was my first real use of javascript.",
       image: "./project-2.gif",
-      link: "https://reedbarger.com",
+      link: "https://github.com/ukn-tye/Weather-Dashapp",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Vinyl",
+      subtitle: "HTML CSS Javascript",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "In this project I played a part in a team for school and we developed an app that allowed the user to search for and listen to music. ",
       image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+      link: "https://github.com/Noahbrown26/ProjectVinyl",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Stride",
+      subtitle: "React & Graphql",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "In this application I helped my team develop a React app that gave fitness tips, workout tutorials, and a goal maker using a fitness API.",
       image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
+      link: "https://github.com/Noahbrown26/FitnessBlog",
     },
   ];
 

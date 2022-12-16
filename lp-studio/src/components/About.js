@@ -21,7 +21,7 @@ export default function About() {
                   Hire Me
                 </a>
                 <a
-                  href="#projects"
+                  href="https://www.canva.com/design/DAE3t-0XuL8/IeLnJjkQHB8wzT-F2vTtLQ/edit"
                   className="ml-4 inline-flex text-gray-400 border-gray-400 border-2 py-2 px-6 hover:text-white hover:bg-gray-600 hover:border-gray-600 rounded-full text-lg">
                   Resume
                 </a>
